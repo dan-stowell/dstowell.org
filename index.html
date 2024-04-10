@@ -3,25 +3,41 @@
 <head>
 <style>
 	body { 
-        line-height: 1.4;
-        font-size: 16px;
-        padding: 0 10px;
-        margin: 50px auto;
-        max-width: 650px;
+    line-height: 1.4;
+    font-size: 16px;
+    padding: 0 10px;
+    margin: 50px auto;
+    max-width: 650px;
 	}
 
 	#main {
-        max-width: 42em;
-        margin: 15 auto;
+    max-width: 42em;
+    margin: 15 auto;
 	}
 
-    details {
-        margin-top: 0.5em;
-    }
+  details {
+    margin-top: 0.5em;
+  }
 
-    summary {
-        font-weight: bold;
-    }
+  summary {
+    font-weight: bold;
+  }
+
+  h2, h3, a:link {
+    color: #185bc7;
+  }
+
+  a:hover, a:active {
+    color: red;
+  }
+
+  a:visited {
+    color: purple;
+  }
+
+  #footer {
+    text-align: right;
+  }
 </style>
 	
 <title>dan stowell</title>
@@ -32,8 +48,12 @@
 <div id="main">
   <h2>dan stowell</h2>
 
+  <p>The past four years I have focused on simplifying programming at <a href="https://vercel.com">Vercel</a> and <a href="https://replit.com">Replit</a>.</p>
+  <p>"Keep lowering the barrier to entry. It should be possible to build something interesting in two minutes." &larr; that's the bar</p>
+  <p>Prior to that, I surfaced undiscovered gems at <a href="https://notes.variogram.com/2022/08/01/the-story-of-canopy/">Canopy</a>, <a href="https://spotify.com">Spotify</a>, and <a href="https://github.com/echonest">The Echo Nest</a></p>
+
   <hr/>
-  <h3>writing</h3>
+  <h3>essays</h3>
 
   <details>
     <summary>Engineering management for nice people</summary>
@@ -108,23 +128,92 @@
   </details>
 
   <details>
-    <summary>It ain't over 'til it can't happen again</summary>
-    <p>An incident isn't over until you've addressed the root cause.</p>
-    <p>If you've moved past immediate customer pain, but the pain could flare up again at any moment, you've at best mitigated the problem.</p>
-    <p>Yes, this does mean you've got to drop whatever you're doing.</p>
-    <p>No, this is not the fun part.</p>
-    <p>What if we end up spending all our time fixing root causes?</p>
-    <p>In many ways, that's better than spending all your time getting paged. You can address the problems with your systems now, with a clear head, or face them in the middle of the night.</p>
-    <p>Uncomfortable truths lurk behind this question.</p>
-    <p>Not everything is worth fixing. There are some bugs or incidents that don't cause that much customer pain. Likely because they occur in systems that aren't crucial to your core customers.</p>
-    <p>But if something's not worth fixing, is it worth paging for? And if it's not worth paging for, is it worth operating at all?</p>
-    <p>Running a service on the internet costs time and attention. Nothing comes for free. The longer it's been since you last touched the service, the more concentration it will cost you to respond to a problem.</p>
-    <p>The other uncomfortable truth is that it costs to build reliable systems. Not in the “add four weeks to the timeline for to find bugs” sense.</p>
-    <p>In the sense that you have to know what your service is supposed to do and continuously check whether it's doing it or not. If humans interact with your system to accomplish goals, you have to have a way to check that they're accomplishing those goals! HTTP 200 is OK, but not enough.</p>
-    <p>Or in the sense that sometimes parts of your service or the services it depends on will fail and you have to handle those failures gracefully.</p>
-    <p>Your downtime will be the sum of the downtime of all your single points of failure.</p>
-    <p>Waiting for root causes to be addressed before declaring incidents resolved brings these uncomfortable tradeoffs out into the sunlight. What, exactly, merits this level of rigor? What will you stand behind? And what will happen when the new system you're currently building fails?</p>
+    <summary>Fresh Finds</summary>
+    <p>The first time you hear a new favorite song, it reaches out of the background noise and the passing of seconds and picks you up by your too-thin t-shirt to keep you from moving or listening to anything else.</p>
+    <p>If you&#39;re like me you start chasing that feeling, knowing that you can&#39;t force it but maybe you can put yourself in the right place often enough that it&#39;ll find you. It&#39;s hard to set out for serendipity. <a href="https://open.spotify.com/user/spotify/playlist/3rgsDhGHZxZ9sB9DQWQfuf">Fresh Finds</a>, a playlist that <a href="https://twitter.com/kurtjx">Kurt</a>, <a href="https://twitter.com/zthangz">Athena</a>, <a href="https://twitter.com/jasonsteinbach">Jason</a>, <a href="https://twitter.com/bwhitman">Brian</a>, some computers, and I publish on Wednesdays, is the closest I&#39;ve come to hand-delivery of good, sometimes great, new music.</p>
+    <p>We started publishing the playlist regularly last November. Kurt said something like &#39;we haven&#39;t looked at what our cool users are listening to.&#39; (He probably didn&#39;t use the word &#39;cool&#39;). The first attempt yielded every huge pop song released in the last eighteen years. By copying a deceptively simple formula from <a href="https://twitter.com/glenn_mcdonald">Glenn</a> and <a href="https://github.com/smershon">Stu</a>, we moved from the hits to the decidedly hip. Since then it&#39;s been a matter of listening to a lot of obscure music, tightening our filters, philosophizing, and tweeting. I&#39;m particularly proud of all the small, boring tweaks we made along the way to give this playlist its distinct feel.</p>
+    <p>Hearing a grab-bag of songs most every day for eight months has changed the way I listen. I&#39;m much more excited to skip from single to single, but when I need refuge from hearing anything unfamiliar I will happily loop an album for days on end. Two finds in particular saved me from the blank ocean of pop and EDM: <a href="https://open.spotify.com/album/1p713qaBV4qtcw0EtO7sM7">Green Sky Accident&#39;s <em>Fever Dreams</em></a> (imagine Blink-182, Galaxie 500, and Band of Horses holed up in western Norway for a winter to record an album) and <a href="https://open.spotify.com/album/6hcXrIt3lGleAmg2cqtMQj">Darts&#39; <em>Below Empty &amp; Westward Bound</em></a> (imagine early Modest Mouse reincarnated as wistful Australian rockers). My guilty pleasure of the year is <a href="https://open.spotify.com/artist/6DJLhMrXhyW0XJXxFDIkUT">Goodbye Tomorrow</a>, who is either the realest thing to come out of Chicago or the product of a marketing machine targeted at formerly/slightly disaffected youth who now have real jobs that pay them real salaries to spend on their real nostalgia.</p>
+    <p>Having watched Fresh Finds in action for the better part of a year, I worry less often about all good, new music drying up, but the fear does strike on random nights and it&#39;s a good fear to have, that maybe people will stop recording in their parent&#39;s basements.</p>
   </details>
+
+  <details>
+    <summary>How to mmap and execute a flat binary on Linux</summary>
+    <p>
+        Let's say you have some machine code lying around (without any jumps) that you want to run. I don't know why <em>you</em> would want to do that. I found myself wanting to (in order to, say, send machine code across the network and execute it on many nodes) but couldn't find a single-page guide. Here it is.
+        </p>
+        <p>
+        First, let's write a tiny program to execute.
+        </p>
+        <pre>
+        unsigned int justreturn() {
+            return 243;
+        }
+        </pre>
+        <p>
+        We'll compile it and then grab its .text section.
+        </p>
+        <pre>
+        $ clang -O0 -c justreturn.c
+        $ objcopy --only-section=.text -O binary justreturn.o justreturn.bin
+        </pre>
+        <p>
+        Now we have raw machine code sitting in <code>justreturn.bin</code>. We'll need to open that file, map it into readable and executable memory, then call <code>justreturn()</code>.
+        </p>
+        <pre>
+        #include &lt;fcntl.h&gt;
+        #include &lt;sys/mman.h&gt;
+        
+        
+        typedef unsigned int func();
+        
+        
+        int main(int argc, char* argv[]) {
+            int fd = open(argv[1], O_RDONLY);
+            if (-1 == fd) {
+                return 1;
+            }
+            func* f = mmap(
+                0, 4096, PROT_READ | PROT_EXEC, MAP_PRIVATE, fd, 0);
+            if (MAP_FAILED == f) {
+                return 2;
+            }
+            unsigned int result = f();
+            if (243 == result) {
+                return 0;
+            } else {
+                return 3;
+            }
+        }
+        </pre>
+        <p>
+        Compiling and running this beauty at least exits successfully. If we've screwed anything up we'll most likely segfault.
+        </p>
+        <pre>
+        $ clang -O0 -o mapped mapped.c
+        $ ./mapped justreturn.bin; echo $?
+        0
+        </pre>
+        <p>
+        I spent a lot of time on StackOverflow and Eli Bendersky's site. The one piece I was missing for the longest time was passing <code>--only-section=.text</code> to <code>objcopy</code>. I was in fact copying and attempting to run the ELF header. Like a chump.
+        </p>
+        <ul>
+        <li><a href="http://eli.thegreenplace.net/2013/11/05/how-to-jit-an-introduction">How to JIT - an introduction</a></li>
+        <li><a href="http://stackoverflow.com/questions/3615392/how-to-make-gcc-generate-only-machine-code-that-can-be-loaded-directly-into-memo">How to make gcc generate only machine code that can be loaded directly into memory and executed?</li>
+        <li><a href="http://stackoverflow.com/questions/12409908/invoking-a-function-main-from-a-binary-file-in-c">Invoking a function (main()) from a binary file in C</a></li>
+        </ul>
+        
+  </details>
+
+  <hr/>
+  <h3>jams</h3>
+  <ul>
+    <li><a href="https://www.goodreads.com/author/show/1055.Larry_McMurtry">Larry McMurtry</a></li>
+    <li><a href="https://williamtyler.bandcamp.com/">William Tyler</a></li>
+    <li><a href="https://www.goodreads.com/author/show/27034.Charles_Portis">Charles Portis</a></li>
+  </ul>
+
+  <hr/>
+  <p id="footer"><i>copy (&copy;) ds two thousand sixteen to two thousand twenty four</i></p>
 </div>
 </body>
 </html>
