@@ -1,0 +1,56 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	body {
+    line-height: 1.4;
+    font-size: 16px;
+    padding: 0 10px;
+    margin: 50px auto;
+    max-width: 650px;
+	}
+
+	#main {
+    max-width: 42em;
+    margin: 15 auto;
+	}
+
+  details {
+    margin-top: 0.5em;
+  }
+
+  summary {
+    font-weight: bold;
+  }
+
+  h2, h3, a:link {
+    color: #185bc7;
+  }
+
+  a:hover, a:active {
+    color: red;
+  }
+
+  a:visited {
+    color: purple;
+  }
+
+  #footer {
+    text-align: right;
+  }
+</style>
+
+<title>{{ title }}</title>
+</head>
+
+
+<body>
+<div id="main">
+  <h2>{{ title }}</h2>
+  {{ content | safe }}
+  <hr/>
+  <p id="footer"><i>copy (&copy;) ds twenty sixteen to twenty twenty five</i></p>
+</div>
+</body>
+</html>
