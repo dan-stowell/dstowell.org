@@ -1,18 +1,7 @@
 ---
 layout: base.njk
-title: what hasn't changed?
+title: good day!
 ---
+Please write me, [dstowell@gmail.com](mailto:dstowell@gmail.com), about internet and non-internet things!
 
-Experimentation remains the bottleneck.
-
-Tests save you.
-
-Docs help everyone.
-
-Writing does not feel valuable in the moment.
-
-Examples beat explanations.
-
-You have to fight for simplicity.
-
-You need room to think.
+I'm interested in "building to throw away," making it really cheap to try out new ideas.
