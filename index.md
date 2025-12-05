@@ -8,8 +8,8 @@ I'm interested in "building to throw away," making it really cheap to try out ne
 
 ---
 
-I have finally come to understand the ideals of Unix: file descriptors and processes orchestrated with C.  
-It's a beautiful idea.  
+I have come to understand the ideals of Unix: file descriptors and processes orchestrated with C.  
+It's a beautiful idea.
 
 [I hate almost all software](https://tinyclouds.org/rant/), Ryan Dahl
 
