@@ -4,16 +4,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 	body {
-    line-height: 1.4;
+    line-height: 1.5;
     font-size: 16px;
-    padding: 0 10px;
-    margin: 50px auto;
-    max-width: 650px;
+    padding: 24px 16px;
+    margin: 0;
 	}
 
 	#main {
-    max-width: 42em;
-    margin: 15 auto;
+    max-width: 48rem;
+    margin: 0 auto;
+    width: 100%;
 	}
 
   details {
@@ -33,11 +33,14 @@
   }
 
   a:visited {
-    color: purple;
+    color: #6a3bc9;
   }
 
   #footer {
     text-align: right;
+    font-size: 0.85em;
+    font-style: italic;
+    margin-top: 0.5em;
   }
 </style>
 
@@ -49,6 +52,8 @@
 <div id="main">
   <h2>{{ title }}</h2>
   {{ content | safe }}
+  <hr/>
+  <div id="footer">&copy; ds 2026</div>
 </div>
 </body>
 </html>

@@ -2,34 +2,28 @@
 layout: base.njk
 title: good day!
 ---
-Please write me, [dstowell@gmail.com](mailto:dstowell@gmail.com), about internet and non-internet things!
+I'm Dan(iel) Stowell, a software engineer at [BuildBuddy](https://buildbuddy.io).
 
-I'm interested in "building to throw away," making it really cheap to try out new ideas.
+I've worked on making it easy for anyone to deploy web sites at [Vercel](https://vercel.com) and write code at [Replit](https://replit.com).
 
----
+Previously I worked on recommender systems at [Canopy](https://notes.variogram.com/2022/08/01/the-story-of-canopy/), [Spotify](https://spotify.com), and [The Echo Nest](https://en.wikipedia.org/wiki/The_Echo_Nest).
 
-I have come to understand the ideals of Unix: file descriptors and processes orchestrated with C. It's a beautiful idea.
+If you want to talk to me about builds, [Bazel](https://bazel.build), or BuildBuddy, please write me at [dan@buildbuddy.io](mailto:dan@buildbuddy.io).
 
-[I hate almost all software](https://tinyclouds.org/rant/), Ryan Dahl
-
----
-
-Using weaker tools can help with complexity. It's hard to write a complicated C program because it can't do very much. I'd never advocate intentionally using a weak tool, though. Instead, my lesson has been: write Python code like it is C.
-
-[Complexity is the enemy](https://neugierig.org/software/blog/2011/04/complexity.html), Evan Martin
+For everything else, please use [dstowell@gmail.com](mailto:dstowell@gmail.com).
 
 ---
 
-* Favor reading code over writing code.
-* Reduce the amount one must remember.
-* Communicate intent precisely.
-* Only one obvious way to do things.
-* Together we serve the users.
+### Allegiances
+I follow God and attend [North Suburban Church](https://northsub.com).
 
-[Zig Programming Language Zen](https://ziglang.org/documentation/master/#Zen), likely Andrew Kelley
+I live on Chicago's North Shore with my wife, four children, and golden retriever.
+
+I grew up in New England and root for the Red Sox (90%), Celtics (9%), Patriots (1%). I have not yet had time for the Bruins in this life.
 
 ---
 
-What people say is overcommunicating is just communicating.  
-
-[DO TOO MUCH](https://alexw.substack.com/p/do-too-much), Alexandr Wang
+### A few nerdy questions
+- What would compilers and linkers look like if they were invented after the advent of HTTP?
+- What do whole-program optimizations unlock if you can assume a program will not need garbage collection or runtime module loading?
+- How far can you scale code execution on a single "machine" using ideas from the above two questions?
