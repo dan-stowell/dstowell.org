@@ -1,20 +1,23 @@
 ---
 layout: base.njk
-title: good day!
+title: Good day!
 ---
 I'm Dan(iel) Stowell, a software engineer at [BuildBuddy](https://buildbuddy.io).
 
-I've worked on making it easy for anyone to deploy web sites at [Vercel](https://vercel.com) and write code at [Replit](https://replit.com).
+In the past, I've worked on
+ - easy web deployment at [Vercel](https://vercel.com),
+ - making it possible for anyone to write code at [Replit](https://replit.com),
+ - private personalization at [Canopy](https://notes.variogram.com/2022/08/01/the-story-of-canopy/),
+ - Fresh Finds and Daily Mix at [Spotify](https://spotify.com),
+ - and playlist engines at [The Echo Nest](https://en.wikipedia.org/wiki/The_Echo_Nest).
 
-Previously I worked on recommender systems at [Canopy](https://notes.variogram.com/2022/08/01/the-story-of-canopy/), [Spotify](https://spotify.com), and [The Echo Nest](https://en.wikipedia.org/wiki/The_Echo_Nest).
-
-If you want to talk to me about builds, [Bazel](https://bazel.build), or BuildBuddy, please write me at [dan@buildbuddy.io](mailto:dan@buildbuddy.io).
+If you want to talk about builds, [Bazel](https://bazel.build), or BuildBuddy, please write me at [dan@buildbuddy.io](mailto:dan@buildbuddy.io).
 
 For everything else, please use [dstowell@gmail.com](mailto:dstowell@gmail.com).
 
 ---
 
-### Allegiances
+### Life outside the internet
 I follow God and attend [North Suburban Church](https://northsub.com).
 
 I live on Chicago's North Shore with my wife, four children, and golden retriever.
