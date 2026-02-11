@@ -25,7 +25,7 @@
     font-size: 1.17em;
   }
 
-  h2, h3, summary, a:link {
+  h2, h3, h4, summary, a:link {
     color: #185bc7;
   }
 
@@ -45,39 +45,42 @@
   }
 </style>
 
-<title>Good day!</title>
+<title>internet site for Dan Stowell</title>
 </head>
 
 
 <body>
 <div id="main">
-  <h2>Good day!</h2>
+  <h3>Hello.</h3>
   <p>I'm Dan Stowell, a software engineer at <a href="https://buildbuddy.io">BuildBuddy</a>.</p>
-<p>I've worked on a few different internet things, including</p>
+  <p>I've worked on a few different internet things over the years, including:<p>
 <ul>
 <li>letting anyone write code at <a href="https://replit.com">Replit</a>,</li>
 <li>Fresh Finds and Daily Mix at <a href="https://spotify.com">Spotify</a>,</li>
 <li>and playlist engines at <a href="https://en.wikipedia.org/wiki/The_Echo_Nest">The Echo Nest</a>.</li>
 </ul>
-<p>If you want to talk about builds, <a href="https://bazel.build">Bazel</a>, or BuildBuddy, please write me at <a href="mailto:dan@buildbuddy.io">dan@buildbuddy.io</a>.</p>
-<p>For everything else, please use <a href="mailto:dstowell@gmail.com">dstowell@gmail.com</a>.</p>
+<p>To talk builds, <a href="https://bazel.build">Bazel</a>, or <a href="https://buildbuddy.io">BuildBuddy</a>, please write me at <a href="mailto:dan@buildbuddy.io">dan@buildbuddy.io</a>.</p>
+<p>For everything else, use <a href="mailto:dstowell@gmail.com">dstowell@gmail.com</a>.</p>
 <hr>
 <h3>Life outside the internet</h3>
 <p>I follow God and attend <a href="https://northsub.com">North Suburban Church</a>.</p>
 <p>I live on Chicago's North Shore with my wife, four children, and golden retriever.</p>
-<p>I grew up in New England and root for the Red Sox (90%), Celtics (9%), Patriots (1%). I have not yet had time for the Bruins in this life.</p>
+<p>
+I grew up in New England and root for the Red Sox (90%), Celtics (9%), Patriots (1%).<br/>
+I have not yet had time for the Bruins in this life.
+</p>
 <hr>
-<details>
-<summary>A few nerdy questions</summary>
-<ul>
-<li>What would compilers and linkers look like if they were invented after the advent of HTTP?</li>
-<li>What do whole-program optimizations unlock if you can assume a program will not need garbage collection or runtime module loading?</li>
-<li>How far can you scale code execution on a single &quot;machine&quot; using ideas from the above two questions?</li>
-</ul>
-</details>
+<h3>Notes and experiments</h3>
+<h4>Shrinking the container</h4>
+<p>For years I've worked on systems that shuttle large blobs of state around: container images, filesystem snapshots, listening histories.</p>
+<p>I'm interestested in reducing that complexity to its core.</p>
+<p>
+What happens if the filesystem state lives in sqlite?<br/>
+What if execution is limited to small WebAssembly modules?
+</p>
 
   <hr/>
-  <div id="footer">&copy; ds 2026</div>
+  <div id="footer">ds 2026, wip</div>
 </div>
 </body>
 </html>
