@@ -22,9 +22,10 @@
 
   summary {
     font-weight: bold;
+    font-size: 1.17em;
   }
 
-  h2, h3, a:link {
+  h2, h3, summary, a:link {
     color: #185bc7;
   }
 
@@ -66,12 +67,14 @@
 <p>I live on Chicago's North Shore with my wife, four children, and golden retriever.</p>
 <p>I grew up in New England and root for the Red Sox (90%), Celtics (9%), Patriots (1%). I have not yet had time for the Bruins in this life.</p>
 <hr>
-<h3>A few nerdy questions</h3>
+<details>
+<summary>A few nerdy questions</summary>
 <ul>
 <li>What would compilers and linkers look like if they were invented after the advent of HTTP?</li>
 <li>What do whole-program optimizations unlock if you can assume a program will not need garbage collection or runtime module loading?</li>
 <li>How far can you scale code execution on a single &quot;machine&quot; using ideas from the above two questions?</li>
 </ul>
+</details>
 
   <hr/>
   <div id="footer">&copy; ds 2026</div>
